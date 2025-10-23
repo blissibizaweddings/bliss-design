@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bliss Ibiza Weddings &mdash; Destination Wedding Designers</title>
+    <meta
+      name="description"
+      content="Bliss Ibiza Weddings curates design-led celebrations across Ibiza and Formentera with bespoke planning, production, and styling."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#top">Bliss Ibiza Weddings</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#map">Destinations</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Celebrations</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="cta" href="#contact">Enquire</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-container">
+          <div class="hero-copy">
+            <span class="eyebrow">Destination Wedding Designers</span>
+            <h1>Design-led celebrations across Ibiza &amp; Formentera</h1>
+            <p>
+              From secret coves to cliff-top fincas, Bliss Ibiza Weddings crafts layered
+              experiences that celebrate the island's rhythm. Our team blends
+              architectural storytelling with impeccable production to deliver
+              effortless celebrations for modern romantics.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#map">Explore the islands</a>
+              <a class="button secondary" href="#portfolio">View celebrations</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="hero-panel__card">
+              <p class="hero-panel__label">Signature aesthetic</p>
+              <p class="hero-panel__title">Organic glamour with Balearic soul</p>
+              <p>
+                Tailor-made palettes, bespoke furniture design and curated gastronomy
+                combine for celebrations that feel poetic yet precise.
+              </p>
+            </div>
+            <div class="hero-panel__floating">
+              <span>2024</span>
+              <p>Limited availability for editorial-style weddings and multi-day events.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map" id="map">
+        <div class="container map-container">
+          <div class="map-intro">
+            <span class="eyebrow">Destination Map</span>
+            <h2>Mapping the Bliss experience</h2>
+            <p>
+              Inspired by the cartographic storytelling of Isla &amp; Smith, our island map
+              reveals curated venues, hidden beach clubs and cinematic viewpoints. Select
+              a highlight to uncover the layered itineraries we craft around each
+              location.
+            </p>
+          </div>
+          <div class="map-visual">
+            <div class="map-aurora" aria-hidden="true"></div>
+            <svg class="map-islands" viewBox="0 0 640 440" role="img" aria-labelledby="mapTitle mapDesc">
+              <title id="mapTitle">Ibiza and Formentera stylised map</title>
+              <desc id="mapDesc">
+                A stylised illustration of the Balearic Islands highlighting signature venues curated by Bliss Ibiza Weddings.
+              </desc>
+              <g class="map-orbits" aria-hidden="true">
+                <circle cx="320" cy="220" r="200"></circle>
+                <circle cx="320" cy="220" r="260"></circle>
+              </g>
+              <path
+                class="map-island"
+                d="M284 68C344 40 412 70 436 124C456 166 452 222 412 262C372 302 304 324 244 304C192 286 160 242 162 190C166 128 222 94 284 68Z"
+              ></path>
+              <path
+                class="map-island map-island--secondary"
+                d="M404 334C432 320 472 322 494 340C516 358 516 384 494 398C470 414 434 410 410 386C392 366 382 348 404 334Z"
+              ></path>
+            </svg>
+            <div
+              class="map-marker"
+              style="--x: 62%; --y: 42%"
+              data-location="dalt-vila"
+              tabindex="0"
+              role="button"
+              aria-controls="dalt-vila"
+            >
+              <span class="marker-dot"></span>
+              <span class="marker-label">Dalt Vila</span>
+            </div>
+            <div
+              class="map-marker"
+              style="--x: 40%; --y: 52%"
+              data-location="vista-alegre"
+              tabindex="0"
+              role="button"
+              aria-controls="vista-alegre"
+            >
+              <span class="marker-dot"></span>
+              <span class="marker-label">Vista Alegre</span>
+            </div>
+            <div
+              class="map-marker"
+              style="--x: 70%; --y: 70%"
+              data-location="formentera"
+              tabindex="0"
+              role="button"
+              aria-controls="formentera"
+            >
+              <span class="marker-dot"></span>
+              <span class="marker-label">Formentera Sail</span>
+            </div>
+            <div
+              class="map-marker"
+              style="--x: 28%; --y: 36%"
+              data-location="sant-mateu"
+              tabindex="0"
+              role="button"
+              aria-controls="sant-mateu"
+            >
+              <span class="marker-dot"></span>
+              <span class="marker-label">Sant Mateu</span>
+            </div>
+            <div class="map-tooltip" role="status" aria-live="polite"></div>
+          </div>
+          <div class="map-locations" role="list">
+            <article
+              class="map-card is-active"
+              id="dalt-vila"
+              role="listitem"
+              data-summary="Sunset vows inside UNESCO-protected walls overlooking Ibiza Town."
+              tabindex="0"
+            >
+              <span class="map-card__eyebrow">Old Town Ceremony</span>
+              <h3>Dalt Vila Citadel</h3>
+              <p>
+                Exchange vows within UNESCO-listed walls as the sun sets over Ibiza Town.
+                We orchestrate candlelit processions, rooftop cocktails and soundscapes by
+                Balearic musicians.
+              </p>
+              <ul>
+                <li>Historic architecture with contemporary styling</li>
+                <li>Sunset rooftop receptions</li>
+                <li>Afterparty in a private gallery</li>
+              </ul>
+            </article>
+            <article
+              class="map-card"
+              id="vista-alegre"
+              role="listitem"
+              data-summary="A private south-coast estate with cliffside decks and yacht arrivals."
+              tabindex="0"
+            >
+              <span class="map-card__eyebrow">Cliffside Weekend</span>
+              <h3>Vista Alegre Estate</h3>
+              <p>
+                A private cove on the island's south coast becomes a multi-day celebration
+                with yacht arrivals, barefoot welcome feasts and sunrise recovery rituals.
+              </p>
+              <ul>
+                <li>Custom-built decks for dining over the sea</li>
+                <li>Immersive lighting design and aerial performances</li>
+                <li>Late-night club curated by international DJs</li>
+              </ul>
+            </article>
+            <article
+              class="map-card"
+              id="formentera"
+              role="listitem"
+              data-summary="Progressive sailing celebration across Formentera's crystalline waters."
+              tabindex="0"
+            >
+              <span class="map-card__eyebrow">Sail &amp; Soirée</span>
+              <h3>Formentera Sandbanks</h3>
+              <p>
+                Charter our partner catamaran for a progressive celebration drifting across
+                the crystalline waters of Formentera before a barefoot dining experience on
+                Illetes beach.
+              </p>
+              <ul>
+                <li>Progressive dining across multiple decks</li>
+                <li>Sunset ceremony on a secluded sandbank</li>
+                <li>Curated wellness morning-after gathering</li>
+              </ul>
+            </article>
+            <article
+              class="map-card"
+              id="sant-mateu"
+              role="listitem"
+              data-summary="A secluded vineyard finca reimagined with sculptural florals and candlelight."
+              tabindex="0"
+            >
+              <span class="map-card__eyebrow">Finca Revelry</span>
+              <h3>Sant Mateu Valley</h3>
+              <p>
+                Hidden amid terraced vineyards, this centuries-old finca is transformed with
+                large-scale floral installations, bespoke tablescapes and a candlelit dance
+                floor beneath the stars.
+              </p>
+              <ul>
+                <li>Immersive ceremony garden with sculptural florals</li>
+                <li>Family-style feasting by Michelin-awarded chefs</li>
+                <li>After-dark revelry with silent-disco sound design</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Services</span>
+            <h2>Full-service production rooted in detail</h2>
+            <p>
+              Each celebration is built on intentional planning, forward-thinking design and
+              personal storytelling. Our in-house producers, stylists and technical
+              directors oversee every moment, from guest logistics to sensory experiences.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article>
+              <h3>Creative Direction</h3>
+              <p>
+                Mood development, custom installations, fashion styling and stationery that
+                reflect your narrative and the island's textures.
+              </p>
+            </article>
+            <article>
+              <h3>Planning &amp; Production</h3>
+              <p>
+                Venue scouting, supplier negotiations, technical production and detailed
+                scheduling for seamless multi-day itineraries.
+              </p>
+            </article>
+            <article>
+              <h3>Guest Experience</h3>
+              <p>
+                Travel concierge, bespoke gifting, wellness programming and immersive
+                entertainment for an unforgettable guest journey.
+              </p>
+            </article>
+            <article>
+              <h3>On-Island Operations</h3>
+              <p>
+                Logistics teams, backstage coordination and hospitality professionals who
+                ensure every space feels refined and relaxed.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experiences" id="portfolio">
+        <div class="container experiences-container">
+          <div class="experiences-intro">
+            <span class="eyebrow">Selected Celebrations</span>
+            <h2>Editorial wedding weekends for modern romantics</h2>
+            <p>
+              Discover a glimpse of our portfolio &mdash; cinematic welcome parties in rustic
+              bodegas, sunrise ceremonies on hidden beaches and elegant after-parties in the
+              old town. Each celebration is produced with cultural sensitivity and poetic
+              detail.
+            </p>
+          </div>
+          <div class="experiences-grid">
+            <article class="experience-card">
+              <h3>Solstice at Es Vedrà</h3>
+              <p>
+                A weekend wedding culminating in a cliffside ceremony as the sun dipped
+                behind Es Vedrà, accompanied by a live string quartet and projection art on
+                the rock face.
+              </p>
+              <span class="experience-tag">100 guests</span>
+            </article>
+            <article class="experience-card">
+              <h3>Casa Luna Takeover</h3>
+              <p>
+                Private villa transformed with custom-built stages, artful lighting and a
+                secret mezcal tasting lounge hidden behind an olive grove.
+              </p>
+              <span class="experience-tag">Three-day itinerary</span>
+            </article>
+            <article class="experience-card">
+              <h3>Formentera Sunrise Club</h3>
+              <p>
+                Floating brunch, underwater portrait session and a dawn-to-dusk celebration
+                that closed with a barefoot dance floor on Playa de Ses Illetes.
+              </p>
+              <span class="experience-tag">Immersive experience</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Process</span>
+            <h2>How we craft your island story</h2>
+            <p>
+              From discovery to delivery, our process keeps you immersed in the creative
+              moments while we oversee every logistical detail behind the scenes.
+            </p>
+          </div>
+          <ol class="process-steps">
+            <li>
+              <h3>Discovery</h3>
+              <p>
+                We define your celebration's energy, aesthetic and guest journey through in-depth consultations and personalised scouting.
+              </p>
+            </li>
+            <li>
+              <h3>Design Narrative</h3>
+              <p>
+                Our studio translates your vision into 3D layouts, material palettes and production plans ready for refinement.
+              </p>
+            </li>
+            <li>
+              <h3>Immersive Production</h3>
+              <p>
+                We manage build, technical rehearsals and hospitality teams while keeping every touchpoint guest-ready.
+              </p>
+            </li>
+            <li>
+              <h3>Celebration &amp; Continuity</h3>
+              <p>
+                Event-day direction ensures a seamless flow, followed by next-day experiences and legacy gifting for your guests.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="cta-section" id="contact">
+        <div class="container cta-container">
+          <div class="cta-copy">
+            <span class="eyebrow">Let's begin</span>
+            <h2>Reserve your design consultation</h2>
+            <p>
+              Share your story, travel dates and guest details. We'll curate an initial concept
+              deck, indicative budget and timeline tailored to your celebration.
+            </p>
+          </div>
+          <form class="cta-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-row">
+              <label for="date">Event Month</label>
+              <input id="date" name="date" type="month" />
+            </div>
+            <div class="form-row">
+              <label for="guests">Guest Count</label>
+              <input id="guests" name="guests" type="number" min="20" max="300" placeholder="Approximate guests" />
+            </div>
+            <div class="form-row form-row--full">
+              <label for="message">Tell us about your vision</label>
+              <textarea id="message" name="message" rows="4" placeholder="Share destinations, inspirations or must-haves"></textarea>
+            </div>
+            <button type="submit" class="button primary">Plan with Bliss</button>
+            <p class="form-disclaimer">We reply within two business days and schedule a virtual consultation to begin the journey.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div>
+          <a class="brand" href="#top">Bliss Ibiza Weddings</a>
+          <p>Destination wedding designers crafting soulful celebrations across Ibiza and Formentera.</p>
+        </div>
+        <div class="footer-meta">
+          <div>
+            <h3>Visit</h3>
+            <p>Ibiza Town Studio<br />Carrer de la Mare de Déu 12<br />07800 Eivissa</p>
+          </div>
+          <div>
+            <h3>Connect</h3>
+            <p><a href="mailto:hello@blissibizaweddings.com">hello@blissibizaweddings.com</a><br />+34 971 000 123</p>
+          </div>
+          <div>
+            <h3>Follow</h3>
+            <p>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><br />
+              <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">&copy; <span id="currentYear"></span> Bliss Ibiza Weddings. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
