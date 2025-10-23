@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Bliss Ibiza Weddings logo</title>
+  <desc id="desc">Circular emblem with mirrored palm fronds and the word Bliss across the center.</desc>
+  <defs>
+    <path id="frond-outer" d="M100 22 C 134 36 164 70 174 110" />
+    <path id="frond-mid" d="M100 28 C 126 40 152 76 158 112" />
+    <path id="frond-inner" d="M100 34 C 120 44 140 80 142 114" />
+    <path id="frond-core" d="M100 40 C 114 48 128 86 126 116" />
+  </defs>
+  <g fill="none" stroke="#3c3c3b" stroke-width="3" stroke-linecap="round">
+    <circle cx="100" cy="100" r="94" stroke-width="4" />
+    <g>
+      <use href="#frond-outer" />
+      <use href="#frond-mid" />
+      <use href="#frond-inner" />
+      <use href="#frond-core" />
+      <g transform="scale(-1,1) translate(-200,0)">
+        <use href="#frond-outer" />
+        <use href="#frond-mid" />
+        <use href="#frond-inner" />
+        <use href="#frond-core" />
+      </g>
+      <g transform="scale(1,-1) translate(0,-200)">
+        <use href="#frond-outer" />
+        <use href="#frond-mid" />
+        <use href="#frond-inner" />
+        <use href="#frond-core" />
+      </g>
+      <g transform="scale(-1,-1) translate(-200,-200)">
+        <use href="#frond-outer" />
+        <use href="#frond-mid" />
+        <use href="#frond-inner" />
+        <use href="#frond-core" />
+      </g>
+    </g>
+    <line x1="32" y1="100" x2="168" y2="100" stroke-width="2.5" />
+    <line x1="100" y1="20" x2="100" y2="180" stroke-width="2" opacity="0.3" />
+  </g>
+  <text x="100" y="115" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif" font-size="34" letter-spacing="12" fill="#3c3c3b">
+    BLISS
+  </text>
+</svg>
